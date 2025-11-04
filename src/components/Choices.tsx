@@ -60,7 +60,7 @@ export default function Choices() {
           <div className="flex-1 bg-black text-white rounded-2xl p-10 shadow-[0_0_30px_#00FF4E30]">
             <h3 className="text-2xl md:text-3xl font-bold mb-8 flex items-center gap-2">
               <CheckCircle className="text-[#00FF4E] w-8 h-8" />
-              Saiba que no <span className="text-[#00FF4E]">Team LF</span> você recebe:
+              Saiba que no LF Team você recebe:
             </h3>
             <ul className="space-y-4 text-lg leading-relaxed">
               {goodPoints.map((item, index) => (
