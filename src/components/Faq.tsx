@@ -5,38 +5,39 @@ import { ChevronDown } from "lucide-react";
 export default function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
-  const faqs = [
-    {
-      question: "Como funciona a consultoria online da LF Team?",
-      answer:
-        "Após preencher seu cadastro e conversar com a equipe, você receberá um plano de treino e nutrição totalmente personalizado. Todo o acompanhamento é feito online, com suporte via WhatsApp e avaliações regulares.",
-    },
-    {
-      question: "Preciso ter experiência na academia para começar?",
-      answer:
-        "Não! A consultoria é adaptada para todos os níveis — desde iniciantes até atletas avançados. Cada treino é montado de acordo com seu condicionamento e objetivos.",
-    },
-    {
-      question: "Como é feito o suporte durante o acompanhamento?",
-      answer:
-        "O suporte é 100% individualizado e feito pelo WhatsApp, com respostas rápidas, ajustes de plano e acompanhamento constante da sua evolução.",
-    },
-    {
-      question: "Posso fazer os treinos em casa?",
-      answer:
-        "Sim! Se você não tem acesso à academia, o plano é adaptado para sua realidade. Você pode treinar em casa com equipamentos simples ou até com o peso do corpo.",
-    },
-    {
-      question: "Os planos incluem acompanhamento nutricional?",
-      answer:
-        "Sim, você receberá um plano alimentar adaptado à sua rotina, preferências e orçamento — sem precisar abrir mão dos alimentos que gosta.",
-    },
-    {
-      question: "Quais são as formas de pagamento?",
-      answer:
-        "Aceitamos cartão de crédito, Pix e transferência bancária. Há opções de planos mensais e trimestrais com desconto.",
-    },
-  ];
+ const faqs = [
+  {
+    question: "Como funciona o acompanhamento online?",
+    answer:
+      "Após nossa conversa inicial, você receberá um plano de treino feito especialmente para o seu objetivo e rotina. O acompanhamento é feito diretamente comigo, por WhatsApp, com ajustes e orientações sempre que precisar.",
+  },
+  {
+    question: "Preciso ter experiência na academia para começar?",
+    answer:
+      "Não precisa! Eu adapto todo o treino conforme seu nível — seja iniciante, intermediário ou avançado. O importante é começar no seu ritmo, com segurança e constância.",
+  },
+  {
+    question: "Como funciona o suporte?",
+    answer:
+      "O suporte é direto comigo, pelo WhatsApp. Você pode tirar dúvidas, pedir ajustes e receber orientações de forma rápida e personalizada.",
+  },
+  {
+    question: "Posso treinar em casa?",
+    answer:
+      "Sim! Se você não tem acesso à academia, monto treinos que se encaixam na sua realidade — usando o que tiver à disposição, até o peso do corpo.",
+  },
+  {
+    question: "Você faz plano alimentar também?",
+    answer:
+      "Posso te orientar com dicas e sugestões simples para melhorar sua alimentação de acordo com seu dia a dia, sempre dentro do que estou autorizado como estudante de Educação Física.",
+  },
+  {
+    question: "Como posso pagar o acompanhamento?",
+    answer:
+      "Atendo via Pix, transferência ou cartão de crédito. Há opções de planos mensais e pacotes com desconto para quem quer seguir firme por mais tempo.",
+  },
+];
+
 
   return (
     <section id="faq" className="bg-black text-white py-24 relative">

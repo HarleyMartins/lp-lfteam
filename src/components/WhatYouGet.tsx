@@ -18,38 +18,28 @@ type Item = {
 const items: Item[] = [
   {
     icon: Dumbbell,
-    title: "Treino Individualizado",
-    text: "Plano de treino periodizado, específico para seu objetivo, nível e rotina — sempre evolutivo e seguro.",
-  },
-  {
-    icon: Users,
-    title: "Equipe Especializada",
-    text: "Profissionais pós-graduados acompanhando resultados, ajustes e evolução do seu programa.",
+    title: "Treino Personalizado",
+    text: "Treinos feitos sob medida para o seu nível e objetivo, ajustados conforme sua evolução e rotina.",
   },
   {
     icon: HeartPulse,
-    title: "Acompanhamento Nutricional",
-    text: "Dietas personalizadas, práticas e adaptadas ao seu paladar e orçamento — sem sacrifício desnecessário.",
+    title: "Orientação sobre Alimentação",
+    text: "Dicas simples e realistas para melhorar sua alimentação sem precisar seguir dietas radicais.",
   },
   {
     icon: ClipboardCheck,
-    title: "Avaliação e Correção Postural",
-    text: "Análises e exercícios de correção para prevenir lesões e melhorar sua performance.",
+    title: "Avaliação Física e Postural",
+    text: "Avaliação individual para entender seu ponto de partida e corrigir movimentos de forma segura.",
   },
   {
     icon: CalendarDays,
-    title: "Suporte Diário",
-    text: "Atendimento ágil pelo WhatsApp, com orientações e revisões constantes — de segunda a segunda.",
-  },
-  {
-    icon: MessageCircle,
-    title: "Área de Membros & Comunidade",
-    text: "Acesso à comunidade, materiais exclusivos e eventos que mantêm sua motivação lá em cima.",
+    title: "Acompanhamento Constante",
+    text: "Suporte direto pelo WhatsApp para tirar dúvidas e ajustar seu plano sempre que precisar.",
   },
   {
     icon: Activity,
-    title: "Boas Práticas de Mobilidade",
-    text: "Treinos de mobilidade e alongamentos personalizados para aumentar amplitude e desempenho.",
+    title: "Evolução Garantida",
+    text: "Acompanhamento próximo, com foco em resultados reais e melhora contínua do seu desempenho.",
   },
 ];
 

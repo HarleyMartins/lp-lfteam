@@ -2,27 +2,27 @@ import { XCircle, CheckCircle } from "lucide-react";
 
 export default function Choices() {
   const badPoints = [
-    "Consultorias de influenciadores sem formação acadêmica;",
-    "Treinos padrões que o estagiário só copia e cola;",
-    "Dietas genéricas, caras, que não levam em conta seus gostos e objetivos;",
-    "Fazer tudo que o treinador te passa e mesmo assim não ver evolução;",
-    "Suporte demorado, te deixando mais perdido do que antes de entrar;",
-    "Não ser do time do maior fisiculturista natural do Brasil;",
-    "Consultoria sem se preocupar com a sua saúde mental.",
-  ];
+  "Treinos genéricos encontrados na internet, que não levam em conta sua realidade;",
+  "Falta de acompanhamento próximo e dúvidas que ficam sem resposta;",
+  "Planilhas copiadas e coladas, sem adaptação ao seu corpo e rotina;",
+  "Dietas mirabolantes e caras, difíceis de seguir no dia a dia;",
+  "Falta de motivação e ninguém para acompanhar sua evolução de perto;",
+  "Treinar sem saber se está realmente fazendo os exercícios da forma certa;",
+  "Fazer de tudo e ainda assim não ver resultados consistentes.",
+];
+
 
   const goodPoints = [
-    "Consultoria de um atleta profissional e multicampeão de fisiculturismo natural, formado em Educação Física: CREF 036779-G/SC;",
-    "Treino individualizado e periodizado feito por uma equipe de profissionais pós-graduados;",
-    "Dieta individualizada, adaptada à sua rotina, realidade financeira e sem ter que abandonar os seus alimentos favoritos;",
-    "Suporte ágil e individualizado pelo WhatsApp, de segunda a segunda;",
-    "Área de Membros e Comunidade ativa, com alunos com os mesmos objetivos que você;",
-    "Trabalho de mobilidade e alongamentos específicos para você;",
-    "Avaliação e correção postural;",
-    "Fazer parte da consultoria com maior número de troféus de atletas naturais do Brasil;",
-    "Acesso a eventos exclusivos presenciais;",
-    "Única consultoria que oferece uma psicóloga especializada na área, fortalecendo seu mental.",
-  ];
+  "Acompanhamento direto comigo, um personal trainer em formação em Educação Física, sempre disponível para tirar dúvidas;",
+  "Treino totalmente personalizado, feito com base nos seus objetivos e rotina;",
+  "Ajustes frequentes para garantir evolução e evitar estagnação;",
+  "Orientações simples e realistas sobre alimentação, sem cortar tudo o que você gosta;",
+  "Suporte rápido pelo WhatsApp, com atenção individual;",
+  "Acompanhamento de perto para garantir técnica correta e segurança nos treinos;",
+  "Planejamento pensado para sua realidade, seja na academia ou em casa;",
+  "Ajuda constante para manter o foco e a motivação ao longo do processo.",
+];
+
 
   return (
     <section id="escolhas" className="py-24 bg-white text-gray-900">
