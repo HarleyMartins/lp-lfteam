@@ -11,7 +11,7 @@ export default function Hero() {
       <div className="relative z-10 text-center text-white px-6 pt-[25rem] max-w-3xl">
         <h1 className="text-3xl md:text-5xl font-extrabold mb-4 leading-tight">
           SUPERE SEUS LIMITES COM{" "}
-          <span className="text-[#00FF4E]">LF TEAM</span>
+          <span className="text-[#1b87ec]">LF TEAM</span>
         </h1>
 
         <p className="text-lg md:text-xl mb-8 text-white-300 font-bold">
@@ -21,14 +21,14 @@ export default function Hero() {
         <a
           href="https://wa.me/5500000000000"
           target="_blank"
-          className="inline-block bg-[#00FF4E] text-black font-bold px-8 py-4 rounded-xl text-lg transition-transform hover:scale-105 hover:shadow-[0_0_15px_#00FF4E]"
+          className="inline-block bg-[#1b87ec] text-black font-bold px-8 py-4 rounded-xl text-lg transition-transform hover:scale-105 hover:shadow-[0_0_15px_#1b87ec]"
         >
           COMEÇAR AGORA
         </a>
 
         <p className="text-white text-sm mt-6">
           Planos a partir de{" "}
-          <span className="text-[#00FF4E] font-semibold">R$99,90/mês</span>
+          <span className="text-[#1b87ec] font-semibold">R$99,90/mês</span>
         </p>
       </div>
     </section>

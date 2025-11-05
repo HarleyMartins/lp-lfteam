@@ -42,7 +42,7 @@ export default function FAQ() {
     <section id="faq" className="bg-black text-white py-24 relative">
       <div className="container mx-auto px-6 max-w-4xl relative z-10">
         <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-12">
-          Perguntas <span className="text-[#00FF4E]">Frequentes</span>
+          Perguntas <span className="text-[#1b87ec]">Frequentes</span>
         </h2>
 
         <div className="space-y-4">
@@ -57,7 +57,7 @@ export default function FAQ() {
                 <button
                   aria-expanded={isOpen}
                   onClick={() => setOpenIndex(isOpen ? null : index)}
-                  className={`w-full flex justify-between items-center px-6 py-5 text-left focus:outline-none transition-colors duration-200 bg-[#00FF4E] text-black`}
+                  className={`w-full flex justify-between items-center px-6 py-5 text-left focus:outline-none transition-colors duration-200 bg-[#1b87ec] text-black`}
                 >
                   <span className="text-lg md:text-xl font-semibold">
                     {faq.question}
@@ -96,7 +96,7 @@ export default function FAQ() {
             href="https://wa.me/5500000000000"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-[#00FF4E] text-black font-bold px-10 py-4 rounded-xl text-lg shadow-[0_0_25px_#00FF4E] hover:scale-105 transition-transform"
+            className="inline-block bg-[#1b87ec] text-black font-bold px-10 py-4 rounded-xl text-lg shadow-[0_0_25px_#1b87ec] hover:scale-105 transition-transform"
           >
             Falar com a equipe no WhatsApp
           </a>

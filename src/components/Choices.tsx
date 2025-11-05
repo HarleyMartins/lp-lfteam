@@ -30,7 +30,7 @@ export default function Choices() {
         {/* Título */}
         <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-16 leading-tight">
           Grandes conquistas começam com as{" "}
-          <span className="text-[#00FF4E]">melhores escolhas</span>
+          <span className="text-[#1b87ec]">melhores escolhas</span>
         </h2>
 
         {/* Cards lado a lado */}
@@ -51,21 +51,21 @@ export default function Choices() {
             </ul>
 
             {/* Seta decorativa */}
-            <div className="hidden lg:block absolute top-1/2 -right-8 transform -translate-y-1/2 text-[#00FF4E] text-6xl font-bold">
+            <div className="hidden lg:block absolute top-1/2 -right-8 transform -translate-y-1/2 text-[#1b87ec] text-6xl font-bold">
               ➤
             </div>
           </div>
 
           {/* Card direito - Bom */}
-          <div className="flex-1 bg-black text-white rounded-2xl p-10 shadow-[0_0_30px_#00FF4E30]">
+          <div className="flex-1 bg-black text-white rounded-2xl p-10 shadow-[0_0_30px_#1b87ec30]">
             <h3 className="text-2xl md:text-3xl font-bold mb-8 flex items-center gap-2">
-              <CheckCircle className="text-[#00FF4E] w-8 h-8" />
+              <CheckCircle className="text-[#1b87ec] w-8 h-8" />
               Saiba que no LF Team você recebe:
             </h3>
             <ul className="space-y-4 text-lg leading-relaxed">
               {goodPoints.map((item, index) => (
                 <li key={index} className="flex items-start gap-3">
-                  <CheckCircle className="text-[#00FF4E] w-6 h-6 mt-1 shrink-0" />
+                  <CheckCircle className="text-[#1b87ec] w-6 h-6 mt-1 shrink-0" />
                   <span>{item}</span>
                 </li>
               ))}
@@ -78,13 +78,13 @@ export default function Choices() {
           <a
             href="https://wa.me/5500000000000"
             target="_blank"
-            className="inline-block bg-[#00FF4E] text-black font-bold px-12 py-5 rounded-xl text-xl transition-transform hover:scale-105 hover:shadow-[0_0_25px_#00FF4E]"
+            className="inline-block bg-[#1b87ec] text-black font-bold px-12 py-5 rounded-xl text-xl transition-transform hover:scale-105 hover:shadow-[0_0_25px_#1b87ec]"
           >
             Quero fazer parte da LF Team
           </a>
           <p className="text-gray-700 mt-4 text-base">
             Planos personalizados a partir de{" "}
-            <span className="font-bold text-[#00FF4E]">R$199/mês</span>
+            <span className="font-bold text-[#1b87ec]">R$199/mês</span>
           </p>
         </div>
       </div>

@@ -10,13 +10,13 @@ export default function Results() {
         className="absolute inset-0 bg-[url('/results-bg.jpg')] bg-cover bg-center"
         aria-hidden="true"
       />
-      <div className="absolute inset-0 bg-linear-to-b from-black/90 via-black/80 to-[#00FF4E10]" aria-hidden="true" />
+      <div className="absolute inset-0 bg-linear-to-b from-black/90 via-black/80 to-[#1b87ec10]" aria-hidden="true" />
 
       {/* Conteúdo principal */}
       <div className="relative container mx-auto px-6">
         {/* Título */}
         <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-4">
-          RESULTADOS <span className="text-[#00FF4E]">LF TEAM</span>
+          RESULTADOS <span className="text-[#1b87ec]">LF TEAM</span>
         </h2>
         <p className="text-gray-300 text-center max-w-2xl mx-auto mb-12">
           Transformações reais de alunos que decidiram mudar de vida com o acompanhamento do LF Team.
@@ -27,7 +27,7 @@ export default function Results() {
           {[1, 2].map((i) => (
             <div
               key={i}
-              className="overflow-hidden rounded-xl shadow-[0_0_20px_#00FF4E20] hover:shadow-[0_0_25px_#00FF4E50] transition-shadow duration-300"
+              className="overflow-hidden rounded-xl shadow-[0_0_20px_#1b87ec20] hover:shadow-[0_0_25px_#1b87ec50] transition-shadow duration-300"
             >
               <img
                 src={`/results/result-${i}.jpg`}
@@ -43,7 +43,7 @@ export default function Results() {
           <a
             href="https://wa.me/5500000000000"
             target="_blank"
-            className="inline-block bg-[#00FF4E] text-black font-bold px-10 py-4 rounded-xl text-lg transition-transform hover:scale-105 hover:shadow-[0_0_25px_#00FF4E]"
+            className="inline-block bg-[#1b87ec] text-black font-bold px-10 py-4 rounded-xl text-lg transition-transform hover:scale-105 hover:shadow-[0_0_25px_#1b87ec]"
           >
             Fale comigo no WhatsApp
           </a>

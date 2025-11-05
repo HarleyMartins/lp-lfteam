@@ -87,7 +87,7 @@ export default function WhatYouGet() {
                 key={idx}
                 className={`rounded-2xl overflow-hidden shadow-lg transform transition hover:scale-105`}
                 style={{
-                  backgroundColor: isGreen ? "#00FF4E" : "#0b0b0b",
+                  backgroundColor: isGreen ? "#1b87ec" : "#0b0b0b",
                 }}
               >
                 <div className={`p-6 ${isGreen ? "text-black" : "text-white"}`}>
@@ -125,12 +125,12 @@ export default function WhatYouGet() {
             href="https://wa.me/5500000000000"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-[#00FF4E] text-black font-bold px-10 py-4 rounded-xl text-lg shadow-[0_0_25px_#00FF4E] hover:scale-105 transition-transform"
+            className="inline-block bg-[#1b87ec] text-black font-bold px-10 py-4 rounded-xl text-lg shadow-[0_0_25px_#1b87ec] hover:scale-105 transition-transform"
           >
             Fazer parte do LF Team
           </a>
           <p className="text-gray-700 mt-4 text-sm">
-            Planos a partir de <span className="font-bold text-[#00FF4E]">R$199/mês</span>
+            Planos a partir de <span className="font-bold text-[#1b87ec]">R$199/mês</span>
           </p>
         </div>
       </div>
