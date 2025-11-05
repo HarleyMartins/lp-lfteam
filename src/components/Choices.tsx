@@ -74,18 +74,18 @@ export default function Choices() {
         </div>
 
         {/* CTA */}
-        <div className="text-center mt-20">
+        <div className="text-center mt-12">
           <a
-            href="https://wa.me/5500000000000"
+            href="https://wa.me/5588993815330"
             target="_blank"
-            className="inline-block bg-[#1b87ec] text-black font-bold px-12 py-5 rounded-xl text-xl transition-transform hover:scale-105 hover:shadow-[0_0_25px_#1b87ec]"
+            rel="noopener noreferrer"
+            className="inline-block bg-[#1b87ec] text-black font-bold px-10 py-4 rounded-xl text-lg shadow-[0_0_25px_#1b87ec] hover:scale-105 transition-transform"
           >
-            Quero fazer parte da LF Team
+            Fazer parte do LF Team
           </a>
-          <p className="text-gray-700 mt-4 text-base">
-            Planos personalizados a partir de{" "}
-            <span className="font-bold text-[#1b87ec]">R$199/mês</span>
-          </p>
+          {/* <p className="text-gray-700 mt-4 text-sm">
+            Planos a partir de <span className="font-bold text-[#1b87ec]">R$199/mês</span>
+          </p> */}
         </div>
       </div>
     </section>

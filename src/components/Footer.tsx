@@ -33,19 +33,19 @@ export default function Footer() {
             <ul className="space-y-3 text-gray-300">
               <li className="flex items-center gap-2">
                 <Phone className="text-[#1b87ec] w-5 h-5" />
-                <span>(00) 00000-0000</span>
+                <span>(88) 99381-5330</span>
               </li>
-              <li className="flex items-center gap-2">
+              {/* <li className="flex items-center gap-2">
                 <Mail className="text-[#1b87ec] w-5 h-5" />
                 <span>contato@lfteam.com</span>
-              </li>
+              </li> */}
               <li className="flex items-center gap-3 mt-4">
-                <a href="#" className="hover:text-[#1b87ec] transition-colors">
+                <a href="https://instagram.com/luis_fernando8012" target="_blank"  className="hover:text-[#1b87ec] transition-colors">
                   <Instagram className="w-6 h-6" />
                 </a>
-                <a href="#" className="hover:text-[#1b87ec] transition-colors">
+                {/* <a href="#" className="hover:text-[#1b87ec] transition-colors">
                   <Facebook className="w-6 h-6" />
-                </a>
+                </a> */}
               </li>
             </ul>
           </div>
@@ -53,7 +53,7 @@ export default function Footer() {
 
         {/* Direitos autorais */}
         <div className="text-center border-t border-[#1b87ec]/20 pt-6 text-gray-500 text-sm">
-          © {new Date().getFullYear()} LF Team — Todos os direitos reservados.
+          © {new Date().getFullYear()} <a className="hover:text-blue-[#1b87ec]" target="_blank" href="https://instagram.com/harley.tsx">Harley Martins</a> — Todos os direitos reservados.
         </div>
       </div>
     </footer>

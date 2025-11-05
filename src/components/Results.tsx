@@ -41,11 +41,12 @@ export default function Results() {
         {/* CTA */}
         <div className="text-center">
           <a
-            href="https://wa.me/5500000000000"
+            href="https://wa.me/5588993815330"
             target="_blank"
-            className="inline-block bg-[#1b87ec] text-black font-bold px-10 py-4 rounded-xl text-lg transition-transform hover:scale-105 hover:shadow-[0_0_25px_#1b87ec]"
+            rel="noopener noreferrer"
+            className="inline-block bg-[#1b87ec] text-black font-bold px-10 py-4 rounded-xl text-lg shadow-[0_0_25px_#1b87ec] hover:scale-105 transition-transform"
           >
-            Fale comigo no WhatsApp
+            Fazer parte do LF Team
           </a>
         </div>
       </div>

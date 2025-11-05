@@ -18,7 +18,7 @@ export default function FinalCTA() {
         </p>
 
         <a
-          href="https://wa.me/5500000000000"
+          href="https://wa.me/5588993815330"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block bg-[#1b87ec] text-white font-bold px-10 py-4 rounded-xl text-lg shadow-[0_0_25px_#1b87ec80] hover:scale-105 transition-transform"
@@ -26,10 +26,10 @@ export default function FinalCTA() {
           Entrar para a LF Team
         </a>
 
-        <p className="text-white mt-6 text-sm">
+        {/* <p className="text-white mt-6 text-sm">
           Planos personalizados a partir de{" "}
           <span className="text-[#1b87ec] font-semibold">R$199/mês</span>
-        </p>
+        </p> */}
       </div>
     </section>
   );

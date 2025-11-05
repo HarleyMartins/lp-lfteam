@@ -94,12 +94,12 @@ export default function FAQ() {
         {/* CTA */}
         <div className="text-center mt-16">
           <a
-            href="https://wa.me/5500000000000"
+            href="https://wa.me/5588993815330"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-[#1b87ec] text-black font-bold px-10 py-4 rounded-xl text-lg shadow-[0_0_25px_#1b87ec] hover:scale-105 transition-transform"
           >
-            Falar com a equipe no WhatsApp
+            Fazer parte do LF Team
           </a>
         </div>
       </div>
