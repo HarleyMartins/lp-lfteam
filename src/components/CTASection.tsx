@@ -18,13 +18,13 @@ export default function FinalCTA() {
         </p>
 
         <a
-          href="https://wa.me/5588993815330"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block bg-[#1b87ec] text-white font-bold px-10 py-4 rounded-xl text-lg shadow-[0_0_25px_#1b87ec80] hover:scale-105 transition-transform"
-        >
-          Entrar para a LF Team
-        </a>
+            href="https://wa.me/5588993815330"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-[#0084ff] text-white font-bold px-10 py-4 rounded-xl text-lg shadow-[0_0_25px_#1b87ec] hover:scale-105 transition-transform"
+          >
+            Quero fazer parte do LF Team
+          </a>
 
         {/* <p className="text-white mt-6 text-sm">
           Planos personalizados a partir de{" "}
