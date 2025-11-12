@@ -1,4 +1,5 @@
 import { XCircle, CheckCircle } from "lucide-react";
+import CtaButton from "./CtaButton";
 
 export default function Choices() {
   const badPoints = [
@@ -75,14 +76,7 @@ export default function Choices() {
 
         {/* CTA */}
         <div className="text-center mt-12">
-          <a
-            href="https://wa.me/5588993815330"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-[#0084ff] text-white font-bold px-10 py-4 rounded-xl text-lg shadow-[0_0_25px_#1b87ec] hover:scale-105 transition-transform"
-          >
-            Quero fazer parte do LF Team
-          </a>
+          <CtaButton />
           {/* <p className="text-gray-700 mt-4 text-sm">
             Planos a partir de <span className="font-bold text-[#1b87ec]">R$199/mês</span>
           </p> */}

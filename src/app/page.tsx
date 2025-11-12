@@ -22,7 +22,7 @@ export default function Home() {
       <FAQ />
       <CTASection />
       <Footer />
-      <WhatsAppButton />
+      {/* <WhatsAppButton /> */}
     </main>
   );
 }

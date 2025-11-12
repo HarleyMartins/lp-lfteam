@@ -1,3 +1,5 @@
+import CtaButton from "./CtaButton";
+
 export default function About() {
   return (
     <section id="sobre" className="py-24 bg-white text-gray-900">
@@ -30,14 +32,7 @@ export default function About() {
             nutricional e suporte contínuo para atingir seu melhor desempenho.
           </p>
 
-          <a
-            href="https://wa.me/5588993815330"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-[#0084ff] text-white font-bold px-10 py-4 rounded-xl text-lg shadow-[0_0_25px_#1b87ec] hover:scale-105 transition-transform"
-          >
-            Quero fazer parte do LF Team
-          </a>
+          <CtaButton />
         </div>
       </div>
     </section>

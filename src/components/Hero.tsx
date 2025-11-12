@@ -1,3 +1,5 @@
+import CtaButton from "./CtaButton";
+
 export default function Hero() {
   return (
     <section
@@ -18,14 +20,7 @@ export default function Hero() {
           Resultados reais, treinos personalizados e o suporte que você precisa para evoluir.
         </p>
 
-       <a
-            href="https://wa.me/5588993815330"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-[#0084ff] text-white font-bold px-10 py-4 rounded-xl text-lg shadow-[0_0_25px_#1b87ec] hover:scale-105 transition-transform"
-          >
-            Quero fazer parte do LF Team
-          </a>
+       <CtaButton />
 
         {/* <p className="text-white text-sm mt-6">
           Planos a partir de{" "}

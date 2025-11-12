@@ -1,3 +1,5 @@
+import CtaButton from "./CtaButton";
+
 export default function FinalCTA() {
   return (
     <section
@@ -17,14 +19,7 @@ export default function FinalCTA() {
           Junte-se à <span className="font-semibold text-[#1b87ec]">LF Team</span> e conquiste resultados reais com quem entende de performance, saúde e estética.
         </p>
 
-        <a
-            href="https://wa.me/5588993815330"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-[#0084ff] text-white font-bold px-10 py-4 rounded-xl text-lg shadow-[0_0_25px_#1b87ec] hover:scale-105 transition-transform"
-          >
-            Quero fazer parte do LF Team
-          </a>
+        <CtaButton />
 
         {/* <p className="text-white mt-6 text-sm">
           Planos personalizados a partir de{" "}

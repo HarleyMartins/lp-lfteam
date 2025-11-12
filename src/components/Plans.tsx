@@ -14,7 +14,7 @@ export default function Plans() {
             <h4 className="text-xl font-semibold mb-2">{plan.title}</h4>
             <p className="text-gray-600 mb-4">{plan.desc}</p>
             <a
-              href="https://wa.me/5588993815330"
+              href="/cadastro"
               target="_blank"
               className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700"
             >

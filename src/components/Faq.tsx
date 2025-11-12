@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
+import CtaButton from "./CtaButton";
 
 export default function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
@@ -93,14 +94,7 @@ export default function FAQ() {
 
         {/* CTA */}
         <div className="text-center mt-16">
-          <a
-            href="https://wa.me/5588993815330"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-[#0084ff] text-white font-bold px-10 py-4 rounded-xl text-lg shadow-[0_0_25px_#1b87ec] hover:scale-105 transition-transform"
-          >
-            Quero fazer parte do LF Team
-          </a>
+          <CtaButton />
         </div>
       </div>
     </section>
