@@ -74,7 +74,6 @@ export default function AdminPage() {
             <TableCaption>Lista de pessoas cadastradas.</TableCaption>
             <TableHeader>
               <TableRow>
-                <TableHead>ID</TableHead>
                 <TableHead>Nome</TableHead>
                 <TableHead>Telefone</TableHead>
                 <TableHead className="text-right">Ações</TableHead>
@@ -90,7 +89,6 @@ export default function AdminPage() {
               ) : (
                 users.map((user) => (
                   <TableRow key={user.id}>
-                    <TableCell>{user.id}</TableCell>
                     <TableCell>{user.name}</TableCell>
                     <TableCell>{user.phone}</TableCell>
                     <TableCell className="text-right">
